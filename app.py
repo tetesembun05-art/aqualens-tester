@@ -5,7 +5,7 @@ from PIL import Image
 # 1. Konfigurasi Otak AI (Aqualens Engine)
 # Masukkan API Key kamu di sini nanti
 genai.configure(api_key="AIzaSyCzyoDqRUHt8nQ61ytWSDMeLVrC0LKBrds")
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 st.title("💧 Aqualens Tester")
 st.write("Ambil foto air kamu untuk cek kelayakan visual.")
